@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace ChinookSystem.Data.Entities
 {
     [Table("Artists")]
-    class Artist
+    public class Artist
     {
         [Key]
         public int ArtistId { get; set; }
